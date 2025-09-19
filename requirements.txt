@@ -5,4 +5,10 @@ plotly
 pandas
 scipy
 ipykernel
+geopandas
+folium
+streamlit-folium
+matplotlib
+seaborn
+shapely
 nbformat
