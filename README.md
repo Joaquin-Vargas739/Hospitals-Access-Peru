@@ -1,45 +1,8 @@
-## Simpson's Paradox Dashboard with Python
+# Trabajo de Joaquin Rodrigo Vargas Saavedra
 
-This dashboard was based off of the dashboard made by [Bach and Tan](https://github.com/DigitalCausalityLab/simpsonsparadox) to demonstrate the same phenomenon. This example is taken from Glymour et al. (2016)
+# Se utilizo IPRESS.csv como base de hospitales en el Perú y se incluyeron 3 categorias: 
+# - Hospitales o clinicas de atención general
+# - Hospitales o clinicas de atención especializada
+# - Institutos de salud especializados
 
-### Running locally
-
-To run locally, it is advisable to first create a virtual environment
-
-You will need to have Python installed and in your `PATH`. While located in the root directory of this repository, 
-
-```
-python -m venv env
-```
-
-Now activate the virtual environment:
-
-#### Windows
-
-```
-env/Scripts/activate
-```
-
-#### Linux/MacOS
-
-```
-source env/bin/activate
-```
-
-Now you must install the necessary dependencies to run the dashboard:
-
-```
-pip install -r requirements.txt
-```
-
-This should take a few minutes. Once it is done, you can run the streamlit application:
-
-```
-streamlit run src/streamlit_app.py
-```
-
-This should start a locally hosted server and automatically open a browser tab with the application
-
-### References
-
-Glymour, Madelyn, Judea Pearl, and Nicholas P. Jewell. Causal inference in statistics: A primer. John Wiley & Sons, 2016. 
+# IMPORTANTE: Se filtro la base de manera que quedaran fuera los lugares de caracter privado y # no público.
